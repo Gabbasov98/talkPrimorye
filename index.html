@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Главная</title>
+</head>
+
+<body class="m-page">
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <button class="search-toggle">
+                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20.5312 18.8438C21.1172 19.4688 21.1172 20.4453 20.5312 21.0703C19.9062 21.6562 18.9297 21.6562 18.3047 21.0703L13.6562 16.3828C12.0547 17.4375 10.1016 17.9844 7.99219 17.7109C4.39844 17.2031 1.50781 14.2734 1.03906 10.7188C0.375 5.40625 4.86719 0.914062 10.1797 1.57812C13.7344 2.04688 16.6641 4.9375 17.1719 8.53125C17.4453 10.6406 16.8984 12.5938 15.8438 14.1562L20.5312 18.8438ZM4.08594 9.625C4.08594 12.3984 6.3125 14.625 9.08594 14.625C11.8203 14.625 14.0859 12.3984 14.0859 9.625C14.0859 6.89062 11.8203 4.625 9.08594 4.625C6.3125 4.625 4.08594 6.89062 4.08594 9.625Z" fill="#C3C3C3" />
+                        </svg>
+                    </button>
+
+                    <a href="" class="header__logo">
+                        <img src="img/logo.png" alt="">
+                    </a>
+
+                    <div class="m-search">
+                        <fieldset class="m-search__field fg">
+                            <input type="text" placeholder="Поиск новостей">
+                        </fieldset>
+                        <button class="m-search__more">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 14.0625C11.1719 14.0625 12.1875 15.0781 12.1875 16.25C12.1875 17.4609 11.1719 18.4375 10 18.4375C8.78906 18.4375 7.8125 17.4609 7.8125 16.25C7.8125 15.0781 8.78906 14.0625 10 14.0625ZM10 7.8125C11.1719 7.8125 12.1875 8.82812 12.1875 10C12.1875 11.2109 11.1719 12.1875 10 12.1875C8.78906 12.1875 7.8125 11.2109 7.8125 10C7.8125 8.82812 8.78906 7.8125 10 7.8125ZM10 5.9375C8.78906 5.9375 7.8125 4.96094 7.8125 3.75C7.8125 2.57812 8.78906 1.5625 10 1.5625C11.1719 1.5625 12.1875 2.57812 12.1875 3.75C12.1875 4.96094 11.1719 5.9375 10 5.9375Z" fill="#3E3232" fill-opacity="0.75" />
+                            </svg>
+                        </button>
+                        <button class="m-search__confirm">
+                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20.5312 18.3438C21.1172 18.9688 21.1172 19.9453 20.5312 20.5703C19.9062 21.1562 18.9297 21.1562 18.3047 20.5703L13.6562 15.8828C12.0547 16.9375 10.1016 17.4844 7.99219 17.2109C4.39844 16.7031 1.50781 13.7734 1.03906 10.2188C0.375 4.90625 4.86719 0.414062 10.1797 1.07812C13.7344 1.54688 16.6641 4.4375 17.1719 8.03125C17.4453 10.1406 16.8984 12.0938 15.8438 13.6562L20.5312 18.3438ZM4.08594 9.125C4.08594 11.8984 6.3125 14.125 9.08594 14.125C11.8203 14.125 14.0859 11.8984 14.0859 9.125C14.0859 6.39062 11.8203 4.125 9.08594 4.125C6.3125 4.125 4.08594 6.39062 4.08594 9.125Z" fill="#3E3232" />
+                            </svg>
+                        </button>
+                    </div>
+
+                    <button class="burger _toggle-mob-menu m-btn-primary">
+                        <img class="_view1" src="img/burger.svg" alt="">
+                        <img class="_view2" src="img/burger3.svg" alt="">
+                    </button>
+                </div>
+            </div>
+
+
+            <div class="mob-menu _tabs-parent">
+                <div class="mob-menu__content">
+                    <div class="tab-content _active">
+                        <div class="mob-menu__title">
+                            <div class="text13 medium-text">
+                                Теги
+                            </div>
+                        </div>
+
+                        <div class="mob-menu__items">
+                            <div class="mob-menu__links">
+                                <a href="" class="mob-menu__link _active"><span class="text13">Вся лента</span></a>
+                                <a href="" class="mob-menu__link"><span class="text13">Тег 2</span></a>
+                                <a href="" class="mob-menu__link"><span class="text13">Тег 3</span></a>
+                                <a href="" class="mob-menu__link"><span class="text13">Тег 4</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mob-menu__tabs">
+                    <div class="menu-tab _active" data-tab="_tab2">
+                        <div class="menu-tab__icon">
+                            <img src="img/tags.svg" alt="">
+                        </div>
+                        <div class="menu-tab__title">Теги</div>
+                    </div>
+                </div>
+            </div>
+            <div class="mob-menu__bg _hide-tag-menu"></div>
+
+            <div class="burger-menu">
+                <a href="" class="burger-menu__logo">
+                    <img src="img/logo.png" alt="">
+                </a>
+                <div class="burger-menu__group">
+                    <div class="burger-menu__title">
+                        Красота и здоровье
+                    </div>
+                    <div class="burger-menu__links">
+                        <a href="" class="burger-menu__link"><span>Канал о здоровье</span></a>
+                        <a href="" class="burger-menu__link"><span>Канал о здоровье</span></a>
+                        <a href="" class="burger-menu__link"><span>Канал о здоровье</span></a>
+                        <a href="" class="burger-menu__link"><span>Канал о здоровье</span></a>
+                    </div>
+                </div>
+                <div class="burger-menu__group">
+                    <div class="burger-menu__title">
+                        Красота и здоровье
+                    </div>
+                    <div class="burger-menu__links">
+                        <a href="" class="burger-menu__link"><span>Канал о здоровье</span></a>
+                        <a href="" class="burger-menu__link"><span>Канал о здоровье</span></a>
+                        <a href="" class="burger-menu__link"><span>Канал о здоровье</span></a>
+                        <a href="" class="burger-menu__link"><span>Канал о здоровье</span></a>
+                    </div>
+                </div>
+                <div class="burger-menu__group">
+                    <div class="burger-menu__title">
+                        Красота и здоровье
+                    </div>
+                    <div class="burger-menu__links">
+                        <a href="" class="burger-menu__link"><span>Канал о здоровье</span></a>
+                        <a href="" class="burger-menu__link"><span>Канал о здоровье</span></a>
+                        <a href="" class="burger-menu__link"><span>Канал о здоровье</span></a>
+                        <a href="" class="burger-menu__link"><span>Канал о здоровье</span></a>
+                    </div>
+                </div>
+                <div class="burger-menu__group">
+                    <div class="burger-menu__title">
+                        Красота и здоровье
+                    </div>
+                    <div class="burger-menu__links">
+                        <a href="" class="burger-menu__link"><span>Канал о здоровье</span></a>
+                        <a href="" class="burger-menu__link"><span>Канал о здоровье</span></a>
+                        <a href="" class="burger-menu__link"><span>Канал о здоровье</span></a>
+                        <a href="" class="burger-menu__link"><span>Канал о здоровье</span></a>
+                    </div>
+                </div>
+
+                <div class="_show-tag-menu menu-tab _active">
+                    <div class="menu-tab__icon">
+                        <img src="img/tags.svg" alt="">
+                    </div>
+                    <div class="menu-tab__title">Теги</div>
+                </div>
+            </div>
+            <div class="burger-menu__bg _toggle-mob-menu"></div>
+
+        </header>
+        <main class="content">
+
+            <div class="page-layout">
+                <div class="container">
+                    <div class="page-layout__inner">
+                        <div class="page-layout__sidebar">
+                            <div class="burger-menu__group">
+                                <div class="burger-menu__title">
+                                    Красота и здоровье
+                                </div>
+                                <div class="burger-menu__links">
+                                    <a href="" class="burger-menu__link"><span>Канал о здоровье</span></a>
+                                    <a href="" class="burger-menu__link"><span>Канал о здоровье</span></a>
+                                    <a href="" class="burger-menu__link"><span>Канал о здоровье</span></a>
+                                    <a href="" class="burger-menu__link"><span>Канал о здоровье</span></a>
+                                </div>
+                            </div>
+                            <div class="burger-menu__group">
+                                <div class="burger-menu__title">
+                                    Красота и здоровье
+                                </div>
+                                <div class="burger-menu__links">
+                                    <a href="" class="burger-menu__link"><span>Канал о здоровье</span></a>
+                                    <a href="" class="burger-menu__link"><span>Канал о здоровье</span></a>
+                                    <a href="" class="burger-menu__link"><span>Канал о здоровье</span></a>
+                                    <a href="" class="burger-menu__link"><span>Канал о здоровье</span></a>
+                                </div>
+                            </div>
+                            <div class="page-layout__banners">
+                                <a href="" class="banner__inner">
+                                    <img src="img/banner2.jpg" alt="">
+                                    <div class="banner__badge">
+                                        <span class="text10">РЕКЛАМА</span>
+                                    </div>
+                                </a>
+
+                                <a href="" class="banner__inner">
+                                    <img src="img/banner2.jpg" alt="">
+                                    <div class="banner__badge">
+                                        <span class="text10">РЕКЛАМА</span>
+                                    </div>
+                                </a>
+
+                                <a href="" class="banner__inner">
+                                    <img src="img/banner2.jpg" alt="">
+                                    <div class="banner__badge">
+                                        <span class="text10">РЕКЛАМА</span>
+                                    </div>
+                                </a>
+
+                            </div>
+
+                        </div>
+                        <div class="page-layout__content">
+                            <a href="" class="banner__inner">
+                                <img src="img/banner.jpg" alt="">
+                                <div class="banner__badge">
+                                    <span class="text10">РЕКЛАМА</span>
+                                </div>
+                            </a>
+
+
+                            <div class="stories slider">
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="story-card">
+                                                <div class="story-card__img">
+                                                    <img src="img/avatar.svg" alt="">
+                                                </div>
+                                                <div class="story-card__title text15">
+                                                    Название канала
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="story-card">
+                                                <div class="story-card__img">
+                                                    <img src="img/avatar.svg" alt="">
+                                                </div>
+                                                <div class="story-card__title text15">
+                                                    Название канала
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="story-card">
+                                                <div class="story-card__img">
+                                                    <img src="img/avatar.svg" alt="">
+                                                </div>
+                                                <div class="story-card__title text15">
+                                                    Название канала
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="story-card">
+                                                <div class="story-card__img">
+                                                    <img src="img/avatar.svg" alt="">
+                                                </div>
+                                                <div class="story-card__title text15">
+                                                    Название канала
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="story-card">
+                                                <div class="story-card__img">
+                                                    <img src="img/avatar.svg" alt="">
+                                                </div>
+                                                <div class="story-card__title text15">
+                                                    Название канала
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="story-card">
+                                                <div class="story-card__img">
+                                                    <img src="img/avatar.svg" alt="">
+                                                </div>
+                                                <div class="story-card__title text15">
+                                                    Название канала
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="rubrics">
+                                <div class="rubrics__title">
+                                    Рубрики
+                                </div>
+                                <div class="rubrics__items">
+                                    <a href="" class="tag-link m-btn m-btn-primary">
+                                        <span>#Читать больше</span>
+                                    </a>
+                                    <a href="" class="tag-link m-btn m-btn-primary">
+                                        <span>#Читать больше</span>
+                                    </a>
+                                    <a href="" class="tag-link m-btn m-btn-primary">
+                                        <span>#Читать больше</span>
+                                    </a>
+                                    <a href="" class="tag-link m-btn m-btn-primary">
+                                        <span>#Читать больше</span>
+                                    </a>
+                                    <a href="" class="tag-link m-btn m-btn-primary">
+                                        <span>#Читать больше</span>
+                                    </a>
+                                    <a href="" class="tag-link m-btn m-btn-primary">
+                                        <span>#Читать больше</span>
+                                    </a>
+                                    <a href="" class="tag-link m-btn m-btn-primary">
+                                        <span>#Читать больше</span>
+                                    </a>
+                                    <a href="" class="tag-link m-btn m-btn-primary">
+                                        <span>#Читать больше</span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="channel">
+                                <div class="channel__top">
+                                    <div class="avatar">
+                                        <img src="img/avatar2.svg" alt="">
+                                    </div>
+                                    <div class="channel__info">
+                                        <div class="channel__name">Канал №1</div>
+                                        <div class="channel__time">11:00 9.11.23</div>
+                                    </div>
+
+                                    <button class="channel__subscribe m-btn m-btn-primary-outline">
+                                        <span>Подписаться</span>
+                                    </button>
+                                </div>
+                                <div class="channel__img">
+                                    <img src="img/car.jpg" alt="">
+                                </div>
+                                <div class="channel__content">
+                                    <div class="channel__title">
+                                        Мультимедийная выставка "Фрида Кало. Движущиеся полотна" во Владивостоке
+                                    </div>
+                                    <div class="channel__desc">
+                                        С 6 июля по 21 августа в "Седанка Сити" пройдет мультимедийная выставка "Фрида Кало. Движущиеся полотна".Стоимость билетов:400 руб - взрослый,300 руб - студенческий (18+), пенсионный,250 руб - многодетные семьи (18+). С 6 июля по 21 августа в "Седанка Сити" пройдет мультимедийная выставка "Фрида Кало. Движущиеся полотна".Стоимость билетов:400 руб - взрослый,300 руб - студенческий (18+), пенсионный,250 руб - многодетные семьи (18+). С 6 июля по 21 августа в "Седанка Сити" пройдет мультимедийная выставка "Фрида Кало. Движущиеся полотна".Стоимость билетов:400 руб - взрослый,300 руб - студенческий (18+), пенсионный,250 руб - многодетные семьи (18+). С 6 июля по 21 августа в "Седанка Сити" пройдет мультимедийная выставка "Фрида Кало. Движущиеся полотна".Стоимость билетов:400 руб - взрослый,300 руб - студенческий (18+), пенсионный,250 руб - многодетные семьи (18+).
+                                    </div>
+                                    <div class="channel__nav">
+                                        <a href="" class="channel__link">
+                                            Читать далее
+                                        </a>
+                                    </div>
+                                    <div class="channel__tags">
+                                        <a href="" class="channel__tag">#хештег</a>
+                                        <a href="" class="channel__tag">#хештег</a>
+                                        <a href="" class="channel__tag">#хештег</a>
+                                        <a href="" class="channel__tag">#хештег</a>
+                                        <a href="" class="channel__tag">#хештег</a>
+                                    </div>
+                                    <div class="channel__stat">
+                                        <div class="channel__stat-item">
+                                            <img src="img/heart.svg" alt="">
+                                            <span class="text16">2002</span>
+                                        </div>
+                                        <div class="channel__stat-item">
+                                            <img src="img/heart.svg" alt="">
+                                            <span class="text16">2002</span>
+                                        </div>
+                                        <div class="channel__stat-item">
+                                            <img src="img/heart.svg" alt="">
+                                            <span class="text16">2002</span>
+                                        </div>
+                                    </div>
+                                    <a href="" class="channel__comment">
+                                        <img src="img/comment5.svg" alt="">
+                                        <span>Комментарии(2002)</span>
+                                    </a>
+                                </div>
+                            </div>
+
+
+                            <a href="" class="banner__inner">
+                                <img src="img/banner.jpg" alt="">
+                                <div class="banner__badge">
+                                    <span class="text10">РЕКЛАМА</span>
+                                </div>
+                            </a>
+
+
+                            <div class="channel">
+                                <div class="channel__top">
+                                    <div class="avatar">
+                                        <img src="img/avatar2.svg" alt="">
+                                    </div>
+                                    <div class="channel__info">
+                                        <div class="channel__name">Канал №1</div>
+                                    </div>
+                                </div>
+                                <div class="channel__news slider">
+                                    <div class="swiper-container">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="channel-item">
+                                                    <a href="" class="channel-item__btn m-btn m-btn-white">
+                                                        <span>Читать</span>
+                                                    </a>
+                                                </div>
+
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="channel-item">
+                                                    <a href="" class="channel-item__btn m-btn m-btn-white">
+                                                        <span>Читать</span>
+                                                    </a>
+                                                </div>
+
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="channel-item">
+                                                    <a href="" class="channel-item__btn m-btn m-btn-white">
+                                                        <span>Читать</span>
+                                                    </a>
+                                                </div>
+
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="channel-item">
+                                                    <a href="" class="channel-item__btn m-btn m-btn-white">
+                                                        <span>Читать</span>
+                                                    </a>
+                                                </div>
+
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="channel-item">
+                                                    <a href="" class="channel-item__btn m-btn m-btn-white">
+                                                        <span>Читать</span>
+                                                    </a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-scrollbar"></div>
+                                </div>
+                            </div>
+
+
+                            <div class="channel">
+                                <div class="channel__top">
+                                    <div class="avatar">
+                                        <img src="img/avatar2.svg" alt="">
+                                    </div>
+                                    <div class="channel__info">
+                                        <div class="channel__name">Канал №1</div>
+                                        <div class="channel__time">11:00 9.11.23</div>
+                                    </div>
+
+                                    <button class="channel__subscribe m-btn m-btn-primary-outline">
+                                        <span>Подписаться</span>
+                                    </button>
+                                </div>
+                                <div class="channel__img">
+                                    <img src="img/car.jpg" alt="">
+                                </div>
+                                <div class="channel__content">
+                                    <div class="channel__title">
+                                        Мультимедийная выставка "Фрида Кало. Движущиеся полотна" во Владивостоке
+                                    </div>
+                                    <div class="channel__desc">
+                                        С 6 июля по 21 августа в "Седанка Сити" пройдет мультимедийная выставка "Фрида Кало. Движущиеся полотна".Стоимость билетов:400 руб - взрослый,300 руб - студенческий (18+), пенсионный,250 руб - многодетные семьи (18+). С 6 июля по 21 августа в "Седанка Сити" пройдет мультимедийная выставка "Фрида Кало. Движущиеся полотна".Стоимость билетов:400 руб - взрослый,300 руб - студенческий (18+), пенсионный,250 руб - многодетные семьи (18+). С 6 июля по 21 августа в "Седанка Сити" пройдет мультимедийная выставка "Фрида Кало. Движущиеся полотна".Стоимость билетов:400 руб - взрослый,300 руб - студенческий (18+), пенсионный,250 руб - многодетные семьи (18+). С 6 июля по 21 августа в "Седанка Сити" пройдет мультимедийная выставка "Фрида Кало. Движущиеся полотна".Стоимость билетов:400 руб - взрослый,300 руб - студенческий (18+), пенсионный,250 руб - многодетные семьи (18+).
+                                    </div>
+                                    <div class="channel__nav">
+                                        <a href="" class="channel__link">
+                                            Читать далее
+                                        </a>
+                                    </div>
+                                    <div class="channel__tags">
+                                        <a href="" class="channel__tag">#хештег</a>
+                                        <a href="" class="channel__tag">#хештег</a>
+                                        <a href="" class="channel__tag">#хештег</a>
+                                        <a href="" class="channel__tag">#хештег</a>
+                                        <a href="" class="channel__tag">#хештег</a>
+                                    </div>
+                                    <div class="channel__stat">
+                                        <div class="channel__stat-item">
+                                            <img src="img/heart.svg" alt="">
+                                            <span class="text16">2002</span>
+                                        </div>
+                                        <div class="channel__stat-item">
+                                            <img src="img/heart.svg" alt="">
+                                            <span class="text16">2002</span>
+                                        </div>
+                                        <div class="channel__stat-item">
+                                            <img src="img/heart.svg" alt="">
+                                            <span class="text16">2002</span>
+                                        </div>
+                                    </div>
+                                    <a href="" class="channel__comment">
+                                        <img src="img/comment5.svg" alt="">
+                                        <span>Комментарии(2002)</span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="channel">
+                                <div class="channel__top">
+                                    <div class="avatar">
+                                        <img src="img/avatar2.svg" alt="">
+                                    </div>
+                                    <div class="channel__info">
+                                        <div class="channel__name">Канал №1</div>
+                                        <div class="channel__time">11:00 9.11.23</div>
+                                    </div>
+
+                                    <button disabled class="channel__subscribe m-btn m-btn-primary-outline">
+                                        <span>Подписаться</span>
+                                    </button>
+                                </div>
+                                <div class="channel__img">
+                                    <img src="img/car.jpg" alt="">
+                                </div>
+                                <div class="channel__content">
+                                    <div class="channel__title">
+                                        Мультимедийная выставка "Фрида Кало. Движущиеся полотна" во Владивостоке
+                                    </div>
+                                    <div class="channel__desc">
+                                        С 6 июля по 21 августа в "Седанка Сити" пройдет мультимедийная выставка "Фрида Кало. Движущиеся полотна".Стоимость билетов:400 руб - взрослый,300 руб - студенческий (18+), пенсионный,250 руб - многодетные семьи (18+). С 6 июля по 21 августа в "Седанка Сити" пройдет мультимедийная выставка "Фрида Кало. Движущиеся полотна".Стоимость билетов:400 руб - взрослый,300 руб - студенческий (18+), пенсионный,250 руб - многодетные семьи (18+). С 6 июля по 21 августа в "Седанка Сити" пройдет мультимедийная выставка "Фрида Кало. Движущиеся полотна".Стоимость билетов:400 руб - взрослый,300 руб - студенческий (18+), пенсионный,250 руб - многодетные семьи (18+). С 6 июля по 21 августа в "Седанка Сити" пройдет мультимедийная выставка "Фрида Кало. Движущиеся полотна".Стоимость билетов:400 руб - взрослый,300 руб - студенческий (18+), пенсионный,250 руб - многодетные семьи (18+).
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="page-layout__sidebar2">
+                            <div class="tags">
+                                <div class="line-title">
+                                    <div class="text20 medium-text">
+                                        Теги
+                                    </div>
+                                </div>
+                                <div class="tags__items">
+                                    <a href="" class="tag-link m-btn m-btn-primary">
+                                        <span>#Читать больше</span>
+                                    </a>
+                                    <a href="" class="tag-link m-btn m-btn-gray">
+                                        <span>#Читать больше</span>
+                                    </a>
+                                    <a href="" class="tag-link m-btn m-btn-gray">
+                                        <span>#Читать больше</span>
+                                    </a>
+                                    <a href="" class="tag-link m-btn m-btn-gray">
+                                        <span>#Читать больше</span>
+                                    </a>
+                                    <a href="" class="tag-link m-btn m-btn-primary">
+                                        <span>#Читать больше</span>
+                                    </a>
+                                    <a href="" class="tag-link m-btn m-btn-gray">
+                                        <span>#Читать больше</span>
+                                    </a>
+                                    <a href="" class="tag-link m-btn m-btn-gray">
+                                        <span>#Читать больше</span>
+                                    </a>
+                                    <a href="" class="tag-link m-btn m-btn-gray">
+                                        <span>#Читать больше</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="page-layout__banners">
+                                <a href="" class="banner__inner">
+                                    <img src="img/banner2.jpg" alt="">
+                                    <div class="banner__badge">
+                                        <span class="text10">РЕКЛАМА</span>
+                                    </div>
+                                </a>
+
+                            </div>
+                            <div class="req">
+                                <img src="img/req.svg" alt="" class="req__img">
+                                <div class="text20 medium-text">
+                                    Предложка интересного
+                                </div>
+                                <a href="" class="req__btn m-btn m-btn-primary">
+                                    <span>Перейти</span>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__top">
+                    <a href="" class="footer__logo">
+                        <img src="img/logo2.svg" alt="">
+                    </a>
+
+                    <div class="footer-nav">
+                        <div class="footer-nav__title">
+                            <span>Навигация</span>
+                        </div>
+                        <div class="footer-nav__links">
+                            <a href="" class="footer-nav__link"><span>Sample Menu</span></a>
+                            <a href="" class="footer-nav__link"><span>Sample Menu</span></a>
+                            <a href="" class="footer-nav__link"><span>Sample Menu</span></a>
+                            <a href="" class="footer-nav__link"><span>Sample Menu</span></a>
+                            <a href="" class="footer-nav__link"><span>Sample Menu</span></a>
+                            <a href="" class="footer-nav__link"><span>Sample Menu</span></a>
+                        </div>
+                    </div>
+
+                    <div class="footer-nav">
+                        <div class="footer-nav__title">
+                            <span>Навигация</span>
+                        </div>
+                        <div class="footer-nav__links">
+                            <a href="" class="footer-nav__link"><span>Sample Menu</span></a>
+                            <a href="" class="footer-nav__link"><span>Sample Menu</span></a>
+                            <a href="" class="footer-nav__link"><span>Sample Menu</span></a>
+                            <a href="" class="footer-nav__link"><span>Sample Menu</span></a>
+                            <a href="" class="footer-nav__link"><span>Sample Menu</span></a>
+                            <a href="" class="footer-nav__link"><span>Sample Menu</span></a>
+                        </div>
+                    </div>
+
+                    <div class="footer-nav">
+                        <div class="footer-nav__title">
+                            <span>Our Company</span>
+                        </div>
+                        <div class="footer-nav__links">
+                            <a href="tel:+00000000000" class="footer-nav__social">
+                                <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14.5252 12.5703C13.9153 11.9682 13.154 11.9682 12.548 12.5703C12.0858 13.0286 11.6235 13.487 11.169 13.9531C11.0447 14.0813 10.9398 14.1085 10.7884 14.0231C10.4893 13.8599 10.1707 13.7278 9.88329 13.5492C8.54316 12.7062 7.42056 11.6224 6.42615 10.4027C5.93283 9.7967 5.49389 9.14799 5.18702 8.4177C5.12487 8.27008 5.13652 8.17297 5.25694 8.05255C5.71918 7.60583 6.16978 7.14745 6.62425 6.68908C7.25742 6.05202 7.25742 5.30619 6.62037 4.66524C6.25912 4.3001 5.89787 3.94272 5.53662 3.57757C5.16371 3.20466 4.79469 2.82786 4.4179 2.45883C3.80805 1.8645 3.0467 1.8645 2.44073 2.46271C1.9746 2.92109 1.52789 3.39112 1.05399 3.84172C0.615049 4.25737 0.393637 4.76624 0.347024 5.36057C0.27322 6.32782 0.51017 7.24068 0.84423 8.13024C1.52789 9.97151 2.56892 11.6069 3.83135 13.1063C5.53662 15.134 7.57205 16.7384 9.95321 17.8959C11.0253 18.4165 12.1363 18.8166 13.3443 18.8826C14.1756 18.9292 14.8981 18.7195 15.4769 18.0707C15.8731 17.6279 16.3198 17.2239 16.7393 16.8005C17.3608 16.1712 17.3647 15.4098 16.7471 14.7883C16.009 14.0464 15.2671 13.3083 14.5252 12.5703Z" fill="white" />
+                                    <path d="M13.7835 9.47544L15.2168 9.23072C14.9915 7.91387 14.37 6.72132 13.4261 5.77349C12.4278 4.77517 11.1654 4.14588 9.77475 3.95165L9.57276 5.39281C10.6488 5.54431 11.6276 6.02987 12.4006 6.80289C13.1309 7.53318 13.6087 8.4577 13.7835 9.47544Z" fill="white" />
+                                    <path d="M16.0247 3.24433C14.3699 1.58952 12.2762 0.544584 9.96499 0.222168L9.763 1.66333C11.7596 1.94301 13.5697 2.84811 14.9992 4.27373C16.3549 5.62943 17.2444 7.3425 17.5668 9.2265L19.0002 8.98177C18.6234 6.79867 17.594 4.81756 16.0247 3.24433Z" fill="white" />
+                                </svg>
+                                <span>+0 (000) 000 00-00</span>
+                            </a>
+                            <div class="footer-nav__social">
+                                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M18.2195 5.47558C18.1412 5.18208 17.9822 4.86936 17.8645 4.59555C16.4568 1.21244 13.3809 0 10.8973 0C7.57258 0 3.91076 2.22939 3.42188 6.82469V7.76353C3.42188 7.80271 3.43538 8.15467 3.45456 8.33073C3.72862 10.5207 5.45669 12.8482 6.74729 15.0382C8.13579 17.3846 9.57656 19.6928 11.004 21.9999C11.8842 20.4943 12.7612 18.9689 13.6213 17.5022C13.8557 17.0718 14.1278 16.6417 14.3625 16.2308C14.5189 15.9573 14.8177 15.6837 14.9542 15.4292C16.3427 12.8872 18.5775 10.3254 18.5775 7.80266V6.76628C18.5776 6.49278 18.2386 5.53455 18.2195 5.47558ZM10.9582 10.1886C9.98089 10.1886 8.91116 9.69989 8.38315 8.35032C8.30448 8.13549 8.31082 7.70497 8.31082 7.66553V7.05931C8.31082 5.33885 9.77164 4.55648 11.0425 4.55648C12.607 4.55648 13.8171 5.8082 13.8171 7.37275C13.8171 8.93725 12.5228 10.1886 10.9582 10.1886Z" fill="white" />
+                                </svg>
+                                <span>Sample Menu</span>
+                            </div>
+                            <a href="mailto:sample@mail.ru" class="footer-nav__social">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M18.8233 14.5586C18.8233 14.9455 18.7145 15.3042 18.5402 15.6197L12.9683 9.38554L18.4798 4.56347C18.6942 4.90371 18.8233 5.30338 18.8233 5.73527V14.5586ZM9.99982 10.5175L17.6689 3.80724C17.3542 3.63495 16.9998 3.5293 16.6175 3.5293H3.38214C2.99938 3.5293 2.64488 3.63495 2.33145 3.80724L9.99982 10.5175ZM12.1379 10.1115L10.3627 11.6657C10.2589 11.7562 10.1296 11.8014 9.99982 11.8014C9.86998 11.8014 9.74068 11.7562 9.63685 11.6657L7.86127 10.1114L2.21888 16.4253C2.55709 16.6375 2.95345 16.7646 3.3821 16.7646H16.6175C17.0461 16.7646 17.4426 16.6375 17.7807 16.4253L12.1379 10.1115ZM1.51989 4.56344C1.30553 4.90368 1.17627 5.30335 1.17627 5.73527V14.5587C1.17627 14.9455 1.28458 15.3042 1.45955 15.6197L7.0308 9.38448L1.51989 4.56344Z" fill="white" />
+                                </svg>
+                                <span>sample@mail.ru</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer__bottom">
+                    <div class="footer__links">
+                        <div class="footer__link"><span>© Название компании, 2034</span></div>
+                        <a href="" class="footer__link"><span>Согласие на обработку данных</span></a>
+                        <a href="" class="footer__link"><span>Политика конфиденциальности</span></a>
+                    </div>
+
+                    <div class="socials">
+                        <a href="" class="socials__item">
+                            <img src="img/fb.svg" alt="">
+                        </a>
+                        <a href="" class="socials__item">
+                            <img src="img/vk.svg" alt="">
+                        </a>
+                        <a href="" class="socials__item">
+                            <img src="img/twitter.svg" alt="">
+                        </a>
+                        <a href="" class="socials__item">
+                            <img src="img/ig.svg" alt="">
+                        </a>
+                        <a href="" class="socials__item">
+                            <img src="img/youtube.svg" alt="">
+                        </a>
+                        <a href="" class="socials__item">
+                            <img src="img/youtube2.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.min.js"></script>
+
+</body>
+
+</html>
